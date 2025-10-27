@@ -1,0 +1,932 @@
+
+                         MODELLER 10.7, 2025/05/28, r13093
+
+     PROTEIN STRUCTURE MODELLING BY SATISFACTION OF SPATIAL RESTRAINTS
+
+
+                     Copyright(c) 1989-2025 Andrej Sali
+                            All Rights Reserved
+
+                             Written by A. Sali
+                               with help from
+              B. Webb, M.S. Madhusudhan, M-Y. Shen, G.Q. Dong,
+          M.A. Marti-Renom, N. Eswar, F. Alber, M. Topf, B. Oliva,
+             A. Fiser, R. Sanchez, B. Yerkovich, A. Badretdinov,
+                     F. Melo, J.P. Overington, E. Feyfant
+                 University of California, San Francisco, USA
+                    Rockefeller University, New York, USA
+                      Harvard University, Cambridge, USA
+                   Imperial Cancer Research Fund, London, UK
+              Birkbeck College, University of London, London, UK
+
+
+Kind, OS, HostName, Kernel, Processor: 4, Windows 8 build 9200, LAPTOP-9O25CAO5, SMP, x64
+Date and time of compilation         : 2025/05/28 19:09:13
+MODELLER executable type             : x86_64-w64
+Job starting time (YY/MM/DD HH:MM:SS): 2025/10/21 18:19:25
+
+openf___224_> Open           $(LIB)/restyp.lib
+openf___224_> Open           ${MODINSTALL10v7}/modlib/restyp_cif.lib
+openf___224_> Open           ${MODINSTALL10v7}/modlib/resgrp.lib
+rdresgr_266_> Number of residue groups:        2
+openf___224_> Open           ${MODINSTALL10v7}/modlib/sstruc.lib
+
+Dynamically allocated memory at   amaxlibraries [B,KiB,MiB]:       194446     189.889     0.185
+
+Dynamically allocated memory at   amaxlibraries [B,KiB,MiB]:       194974     190.404     0.186
+openf___224_> Open           ${MODINSTALL10v7}/modlib/resdih.lib
+
+Dynamically allocated memory at   amaxlibraries [B,KiB,MiB]:       243574     237.865     0.232
+rdrdih__263_> Number of dihedral angle types         :        9
+              Maximal number of dihedral angle optima:        3
+              Dihedral angle names                   :  Alph Phi Psi Omeg chi1 chi2 chi3 chi4 chi5
+openf___224_> Open           ${MODINSTALL10v7}/modlib/radii.lib
+
+Dynamically allocated memory at   amaxlibraries [B,KiB,MiB]:       256874     250.854     0.245
+openf___224_> Open           ${MODINSTALL10v7}/modlib/af_mnchdef.lib
+rdwilmo_274_> Mainchain residue conformation classes:  APBLE
+openf___224_> Open           ${MODINSTALL10v7}/modlib/mnch.lib
+rdclass_257_> Number of classes:        5
+openf___224_> Open           ${MODINSTALL10v7}/modlib/mnch1.lib
+openf___224_> Open           ${MODINSTALL10v7}/modlib/mnch2.lib
+openf___224_> Open           ${MODINSTALL10v7}/modlib/mnch3.lib
+openf___224_> Open           ${MODINSTALL10v7}/modlib/xs4.mat
+rdrrwgh_268_> Number of residue types:       21
+openf___224_> Open           $(LIB)/top_heav.lib
+read_to_681_> topology.submodel read from topology file:        3
+openf___224_> Open           fm00495.ali
+
+Dynamically allocated memory at   amaxalignment [B,KiB,MiB]:       395544     386.273     0.377
+
+Dynamically allocated memory at   amaxalignment [B,KiB,MiB]:       396994     387.689     0.379
+
+Dynamically allocated memory at   amaxalignment [B,KiB,MiB]:       399894     390.521     0.381
+
+Dynamically allocated memory at   amaxalignment [B,KiB,MiB]:       405694     396.186     0.387
+
+Dynamically allocated memory at   amaxalignment [B,KiB,MiB]:       417294     407.514     0.398
+
+Dynamically allocated memory at   amaxalignment [B,KiB,MiB]:       658350     642.920     0.628
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:       660286     644.811     0.630
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:       662226     646.705     0.632
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:       664098     648.533     0.633
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:       666046     650.436     0.635
+
+Read the alignment from file       : fm00495.ali
+
+Total number of alignment positions:   489
+
+  #  Code        #_Res #_Segm PDB_code    Name
+-------------------------------------------------------------------------------
+  1      6e07B     485      1 6e07_fit.pd MOL_ID  1; MOLECULE  GLUCOSE-6-PHOSPHATE 1-DEHYDROGENASE; CHAIN  L, C, F, N, Q,
+  2      6e08L     486      1 6e08_fit.pd MOL_ID  1; MOLECULE  GLUCOSE-6-PHOSPHATE 1-DEHYDROGENASE; CHAIN  L; SYNONYM  G6P
+  3      7snfA     469      1 7snf_fit.pd MOL_ID  1; MOLECULE  GLUCOSE-6-PHOSPHATE 1-DEHYDROGENASE; CHAIN  A, B; SYNONYM
+  4      7sniA     488      1 7sni_fit.pd MOL_ID  1; MOLECULE  GLUCOSE-6-PHOSPHATE 1-DEHYDROGENASE; CHAIN  A, B, C, D; SYN
+openf___224_> Open           P11413M.ali
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:       668102     652.443     0.637
+
+Read the alignment from file       : P11413M.ali
+
+Total number of alignment positions:   515
+
+  #  Code        #_Res #_Segm PDB_code    Name
+-------------------------------------------------------------------------------
+  1      6e07B     485      1 6e07_fit.pd MOL_ID  1; MOLECULE  GLUCOSE-6-PHOSPHATE 1-DEHYDROGENASE; CHAIN  L, C, F, N, Q,
+  2      6e08L     486      1 6e08_fit.pd MOL_ID  1; MOLECULE  GLUCOSE-6-PHOSPHATE 1-DEHYDROGENASE; CHAIN  L; SYNONYM  G6P
+  3      7snfA     469      1 7snf_fit.pd MOL_ID  1; MOLECULE  GLUCOSE-6-PHOSPHATE 1-DEHYDROGENASE; CHAIN  A, B; SYNONYM
+  4      7sniA     488      1 7sni_fit.pd MOL_ID  1; MOLECULE  GLUCOSE-6-PHOSPHATE 1-DEHYDROGENASE; CHAIN  A, B, C, D; SYN
+  5    P11413M     515      1
+  ALIGN_CODES                                   : 6e07B 6e08L 7snfA 7sniA P11413M 
+  Atom type for alignment (FIT_ATOMS)           : CA
+  FIT                                           :         T
+  IMPROVE_ALIGNMENT                             :         T
+  WATER_IO, HETATM_IO, HYDROGEN_IO              :         F        F        F
+  NO_TER                                        :         F
+  OUTPUT                                        :
+  FIT_ON_FIRST                                  :         F
+  WRITE_FIT                                     :         F
+  FIT_PDBNAM                                    :         T
+  WRITE_WHOLE_PDB                               :         T
+  CURRENT_DIRECTORY                             :         T
+  Feature weights (FEATURE_WEIGHTS)             :    1.0000   0.0000   0.0000   0.0000   0.0000   0.0000
+  NORMALIZE_PP_SCORES                           :         F
+  Gap initiation penalty (GAP_PENALTIES[1])     :  -450.0000
+  Gap extension penalty (GAP_PENALTIES[2])      :     0.0000
+  Break-break bonus                             : 10000.0000
+  Gap_function (align2d flag)                    :         T
+  2-D Gap penalties                             :  0.35  1.20  0.90  1.20  0.60  8.60  1.20  0.00
+  GAP-GAP_SCORE                                 :    0.0000
+  GAP-RESIDUE_SCORE                             :    0.0000
+  Perform gap-residue and gap-gap correction    :         T
+  Residue type - residue type file (RR_FILE)    : $(LIB)/as1.sim.mat
+  OFF_DIAGONAL                                  :       100
+  OVERHANG                                      :         0
+  LOCAL_ALIGNMENT                               :         F
+  MATRIX_OFFSET                                 :    0.0000
+  N_SUBOPT                                      :         0
+  SUBOPT_OFFSET                                 :    0.0000
+  Gap introduction penalty (GAP_PENALTIES_3D_1) :    0.0000
+  Gap extension penalty (GAP_PENALTIES_3D_2)    :    1.7500
+  Max dist for equiv (2 * GAP_PENALTIES_3D_2)   :    3.5000
+  ALIGN3D_TRF                                   :         F
+  RMS_CUTOFF                                    :    3.5
+
+
+
+openf___224_> Open           6e07_fit.pdb
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       815327     796.218     0.778
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:       815327     796.218     0.778
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       815498     796.385     0.778
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       816348     797.215     0.779
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       817606     798.443     0.780
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       819510     800.303     0.782
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:       819510     800.303     0.782
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       819600     800.391     0.782
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       822456     803.180     0.784
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:       822456     803.180     0.784
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       822591     803.312     0.784
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       826875     807.495     0.789
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:       826875     807.495     0.789
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       827073     807.688     0.789
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       833499     813.964     0.795
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:       833499     813.964     0.795
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       833796     814.254     0.795
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       843418     823.650     0.804
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:       843418     823.650     0.804
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       843868     824.090     0.805
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       858318     838.201     0.819
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:       858318     838.201     0.819
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       858993     838.860     0.819
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       880651     860.011     0.840
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:       880651     860.011     0.840
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       881659     860.995     0.841
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       914163     892.737     0.872
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:       914163     892.737     0.872
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       915675     894.214     0.873
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       964431     941.827     0.920
+
+Dynamically allocated memory at   amaxstructure [B,KiB,MiB]:       964251     941.651     0.920
+openf___224_> Open           6e08_fit.pdb
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      1111776    1085.719     1.060
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:      1111776    1085.719     1.060
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      1111947    1085.886     1.060
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      1112797    1086.716     1.061
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      1114055    1087.944     1.062
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      1115959    1089.804     1.064
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:      1115959    1089.804     1.064
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      1116049    1089.892     1.064
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      1118905    1092.681     1.067
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:      1118905    1092.681     1.067
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      1119040    1092.812     1.067
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      1123324    1096.996     1.071
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:      1123324    1096.996     1.071
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      1123522    1097.189     1.071
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      1129948    1103.465     1.078
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:      1129948    1103.465     1.078
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      1130245    1103.755     1.078
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      1139867    1113.151     1.087
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:      1139867    1113.151     1.087
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      1140317    1113.591     1.087
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      1154767    1127.702     1.101
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:      1154767    1127.702     1.101
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      1155442    1128.361     1.102
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      1177100    1149.512     1.123
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:      1177100    1149.512     1.123
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      1178108    1150.496     1.124
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      1210612    1182.238     1.155
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:      1210612    1182.238     1.155
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      1212124    1183.715     1.156
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      1260880    1231.328     1.202
+
+Dynamically allocated memory at   amaxstructure [B,KiB,MiB]:      1260709    1231.161     1.202
+openf___224_> Open           7snf_fit.pdb
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      1403134    1370.248     1.338
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:      1403134    1370.248     1.338
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      1403305    1370.415     1.338
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      1404155    1371.245     1.339
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      1405413    1372.474     1.340
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      1407317    1374.333     1.342
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:      1407317    1374.333     1.342
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      1407407    1374.421     1.342
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      1410263    1377.210     1.345
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:      1410263    1377.210     1.345
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      1410398    1377.342     1.345
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      1414682    1381.525     1.349
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:      1414682    1381.525     1.349
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      1414880    1381.719     1.349
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      1421306    1387.994     1.355
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:      1421306    1387.994     1.355
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      1421603    1388.284     1.356
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      1431225    1397.681     1.365
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:      1431225    1397.681     1.365
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      1431675    1398.120     1.365
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      1446125    1412.231     1.379
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:      1446125    1412.231     1.379
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      1446800    1412.891     1.380
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      1468458    1434.041     1.400
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:      1468458    1434.041     1.400
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      1469466    1435.025     1.401
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      1501970    1466.768     1.432
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:      1501970    1466.768     1.432
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      1503482    1468.244     1.434
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      1552238    1515.857     1.480
+
+Dynamically allocated memory at   amaxstructure [B,KiB,MiB]:      1551914    1515.541     1.480
+openf___224_> Open           7sni_fit.pdb
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      1700039    1660.194     1.621
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:      1700039    1660.194     1.621
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      1700210    1660.361     1.621
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      1701060    1661.191     1.622
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      1702318    1662.420     1.623
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      1704222    1664.279     1.625
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:      1704222    1664.279     1.625
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      1704312    1664.367     1.625
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      1707168    1667.156     1.628
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:      1707168    1667.156     1.628
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      1707303    1667.288     1.628
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      1711587    1671.472     1.632
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:      1711587    1671.472     1.632
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      1711785    1671.665     1.632
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      1718211    1677.940     1.639
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:      1718211    1677.940     1.639
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      1718508    1678.230     1.639
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      1728130    1687.627     1.648
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:      1728130    1687.627     1.648
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      1728580    1688.066     1.649
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      1743030    1702.178     1.662
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:      1743030    1702.178     1.662
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      1743705    1702.837     1.663
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      1765363    1723.987     1.684
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:      1765363    1723.987     1.684
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      1766371    1724.972     1.685
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      1798875    1756.714     1.716
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:      1798875    1756.714     1.716
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      1800387    1758.190     1.717
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      1849143    1805.804     1.763
+
+Dynamically allocated memory at   amaxstructure [B,KiB,MiB]:      1848990    1805.654     1.763
+openf___224_> Open           $(LIB)/as1.sim.mat
+rdrrwgh_268_> Number of residue types:       20
+
+SALIGN_____> adding the next group to the alignment; iteration    1
+
+Current alignment total score:        425.3
+
+pos_scr ... position-position dissimilarity from the dynamic programming matrix
+avr_avr ... distance between the two averages
+avr_dst ... for all aligned structures, average distance to the average structure
+std_dev ... for all aligned structures, standard deviation of distance to ave str
+
+group:                                 1       1       1       1       2       
+   N pos_scr avr_ave avr_dst std_dev   6e07B   6e08L   7snfA   7sniA   P11413M 
+------------------------------------------------------------------------------
+   1    0.00    0.00    0.00    0.00   -       -       -       -       M       
+   2    0.00    0.00    0.00    0.00   -       -       -       -       G       
+   3    0.00    0.00    0.00    0.00   -       -       -       -       E       
+   4    0.00    0.00    0.00    0.00   -       -       -       -       Q       
+   5    0.00    0.00    0.00    0.00   -       -       -       -       V       
+   6    0.00    0.00    0.00    0.00   -       -       -       -       G       
+   7    0.00    0.00    0.00    0.00   -       -       -       -       L       
+   8    0.00    0.00    0.00    0.00   -       -       -       -       S       
+   9    0.00    0.00    0.00    0.00   -       -       -       -       R       
+  10    0.00    0.00    0.00    0.00   -       -       -       -       T       
+  11    0.00    0.00    0.00    0.00   -       -       -       -       Q       
+  12    0.00    0.00    0.00    0.00   -       -       -       -       V       
+  13    0.00    0.00    0.00    0.00   -       -       -       -       C       
+  14    0.00    0.00    0.00    0.00   -       -       -       -       G       
+  15    0.00    0.00    0.00    0.00   -       -       -       -       I       
+  16    0.00    0.00    0.00    0.00   -       -       -       -       L       
+  17    0.00    0.00    0.00    0.00   -       -       -       -       R       
+  18    0.00    0.00    0.00    0.00   -       -       -       -       E       
+  19    0.00    0.00    0.00    0.00   -       -       -       -       E       
+  20    0.00    0.00    0.00    0.00   -       -       -       -       L       
+  21    0.00    0.00    0.00    0.00   -       -       -       -       F       
+  22    0.00    0.00    0.00    0.00   -       -       -       -       Q       
+  23    0.00    0.00    0.00    0.00   -       -       -       -       G       
+  24    0.00    0.00    0.00    0.00   -       -       -       -       D       
+  25    0.00    0.00    0.00    0.00   -       -       -       -       G       
+  26    0.00    0.00    0.00    0.00   -       -       -       -       F       
+  27    0.22    0.00    0.00    0.00   -       -       H       -       H       
+  28    0.65    0.00    0.00    0.00   -       Q       Q       Q       Q       
+  29    0.89    0.00    0.00    0.00 * S       S       S       S       S       
+  30    0.89    0.00    0.00    0.00 * D       D       D       D       D       
+  31    0.88    0.00    0.00    0.00 * T       T       T       T       T       
+  32    0.87    0.00    0.00    0.00 * H       H       H       H       H       
+  33    0.87    0.00    0.00    0.00 * I       I       I       I       I       
+  34    0.90    0.00    0.00    0.00 * F       F       F       F       F       
+  35    0.87    0.00    0.00    0.00 * I       I       I       I       I       
+  36    0.87    0.00    0.00    0.00 * I       I       I       I       I       
+  37    0.79    0.00    0.00    0.00 * M       M       M       M       M       
+  38    0.96    0.00    0.00    0.00 * G       G       G       G       G       
+  39    0.86    0.00    0.00    0.00 * A       A       A       A       A       
+  40    0.89    0.00    0.00    0.00 * S       S       S       S       S       
+  41    0.96    0.00    0.00    0.00 * G       G       G       G       G       
+  42    0.89    0.00    0.00    0.00 * D       D       D       D       D       
+  43    0.91    0.00    0.00    0.00 * L       L       L       L       L       
+  44    0.86    0.00    0.00    0.00 * A       A       A       A       A       
+  45    0.86    0.00    0.00    0.00 * K       K       K       K       K       
+  46    0.86    0.00    0.00    0.00 * K       K       K       K       K       
+  47    0.86    0.00    0.00    0.00 * K       K       K       K       K       
+  48    0.87    0.00    0.00    0.00 * I       I       I       I       I       
+  49    0.92    0.00    0.00    0.00 * Y       Y       Y       Y       Y       
+  50    0.93    0.00    0.00    0.00 * P       P       P       P       P       
+  51    0.88    0.00    0.00    0.00 * T       T       T       T       T       
+  52    0.87    0.00    0.00    0.00 * I       I       I       I       I       
+  53    0.95    0.00    0.00    0.00 * W       W       W       W       W       
+  54    0.95    0.00    0.00    0.00 * W       W       W       W       W       
+  55    0.91    0.00    0.00    0.00 * L       L       L       L       L       
+  56    0.90    0.00    0.00    0.00 * F       F       F       F       F       
+  57    0.87    0.00    0.00    0.00 * R       R       R       R       R       
+  58    0.89    0.00    0.00    0.00 * D       D       D       D       D       
+  59    0.96    0.00    0.00    0.00 * G       G       G       G       G       
+  60    0.91    0.00    0.00    0.00 * L       L       L       L       L       
+  61    0.91    0.00    0.00    0.00 * L       L       L       L       L       
+  62    0.93    0.00    0.00    0.00 * P       P       P       P       P       
+  63    0.86    0.00    0.00    0.00 * E       E       E       E       E       
+  64    0.82    0.00    0.00    0.00 * N       N       N       N       N       
+  65    0.88    0.00    0.00    0.00 * T       T       T       T       T       
+  66    0.90    0.00    0.00    0.00 * F       F       F       F       F       
+  67    0.87    0.00    0.00    0.00 * I       I       I       I       I       
+  68    0.89    0.00    0.00    0.00 * V       V       V       V       V       
+  69    0.96    0.00    0.00    0.00 * G       G       G       G       G       
+  70    0.92    0.00    0.00    0.00 * Y       Y       Y       Y       Y       
+  71    0.86    0.00    0.00    0.00 * A       A       A       A       A       
+  72    0.87    0.00    0.00    0.00 * R       R       R       R       R       
+  73    0.89    0.00    0.00    0.00 * S       S       S       S       S       
+  74    0.87    0.00    0.00    0.00 * R       R       R       R       R       
+  75    0.91    0.00    0.00    0.00 * L       L       L       L       L       
+  76    0.88    0.00    0.00    0.00 * T       T       T       T       T       
+  77    0.89    0.00    0.00    0.00 * V       V       V       V       V       
+  78    0.86    0.00    0.00    0.00 * A       A       A       A       A       
+  79    0.89    0.00    0.00    0.00 * D       D       D       D       D       
+  80    0.87    0.00    0.00    0.00 * I       I       I       I       I       
+  81    0.87    0.00    0.00    0.00 * R       R       R       R       R       
+  82    0.86    0.00    0.00    0.00 * K       K       K       K       K       
+  83    0.87    0.00    0.00    0.00 * Q       Q       Q       Q       Q       
+  84    0.89    0.00    0.00    0.00 * S       S       S       S       S       
+  85    0.86    0.00    0.00    0.00 * E       E       E       E       E       
+  86    0.93    0.00    0.00    0.00 * P       P       P       P       P       
+  87    0.90    0.00    0.00    0.00 * F       F       F       F       F       
+  88    0.90    0.00    0.00    0.00 * F       F       F       F       F       
+  89    0.86    0.00    0.00    0.00 * K       K       K       K       K       
+  90    0.86    0.00    0.00    0.00 * A       A       A       A       A       
+  91    0.88    0.00    0.00    0.00 * T       T       T       T       T       
+  92    0.93    0.00    0.00    0.00 * P       P       P       P       P       
+  93    0.86    0.00    0.00    0.00 * E       E       E       E       E       
+  94    0.86    0.00    0.00    0.00 * E       E       E       E       E       
+  95    0.86    0.00    0.00    0.00 * K       K       K       K       K       
+  96    0.91    0.00    0.00    0.00 * L       L       L       L       L       
+  97    0.86    0.00    0.00    0.00 * K       K       K       K       K       
+  98    0.91    0.00    0.00    0.00 * L       L       L       L       L       
+  99    0.86    0.00    0.00    0.00 * E       E       E       E       E       
+ 100    0.89    0.00    0.00    0.00 * D       D       D       D       D       
+ 101    0.90    0.00    0.00    0.00 * F       F       F       F       F       
+ 102    0.90    0.00    0.00    0.00 * F       F       F       F       F       
+ 103    0.86    0.00    0.00    0.00 * A       A       A       A       A       
+ 104    0.87    0.00    0.00    0.00 * R       R       R       R       R       
+ 105    0.82    0.00    0.00    0.00 * N       N       N       N       N       
+ 106    0.89    0.00    0.00    0.00 * S       S       S       S       S       
+ 107    0.92    0.00    0.00    0.00 * Y       Y       Y       Y       Y       
+ 108    0.89    0.00    0.00    0.00 * V       V       V       V       V       
+ 109    0.86    0.00    0.00    0.00 * A       A       A       A       A       
+ 110    0.96    0.00    0.00    0.00 * G       G       G       G       G       
+ 111    0.87    0.00    0.00    0.00 * Q       Q       Q       Q       Q       
+ 112    0.92    0.00    0.00    0.00 * Y       Y       Y       Y       Y       
+ 113    0.89    0.00    0.00    0.00 * D       D       D       D       D       
+ 114    0.89    0.00    0.00    0.00 * D       D       D       D       D       
+ 115    0.86    0.00    0.00    0.00 * A       A       A       A       A       
+ 116    0.86    0.00    0.00    0.00 * A       A       A       A       A       
+ 117    0.89    0.00    0.00    0.00 * S       S       S       S       S       
+ 118    0.92    0.00    0.00    0.00 * Y       Y       Y       Y       Y       
+ 119    0.87    0.00    0.00    0.00 * Q       Q       Q       Q       Q       
+ 120    0.87    0.00    0.00    0.00 * R       R       R       R       R       
+ 121    0.91    0.00    0.00    0.00 * L       L       L       L       L       
+ 122    0.82    0.00    0.00    0.00 * N       N       N       N       N       
+ 123    0.89    0.00    0.00    0.00 * S       S       S       S       S       
+ 124    0.87    0.00    0.00    0.00 * H       H       H       H       H       
+ 125    0.79    0.00    0.00    0.00 * M       M       M       M       M       
+ 126    0.82    0.00    0.00    0.00 * N       N       N       N       N       
+ 127    0.86    0.00    0.00    0.00 * A       A       A       A       A       
+ 128    0.91    0.00    0.00    0.00 * L       L       L       L       L       
+ 129    0.87    0.00    0.00    0.00 * H       H       H       H       H       
+ 130    0.91    0.00    0.00    0.00 * L       L       L       L       L       
+ 131    0.96    0.00    0.00    0.00 * G       G       G       G       G       
+ 132    0.89    0.00    0.00    0.00 * S       S       S       S       S       
+ 133    0.87    0.00    0.00    0.00 * Q       Q       Q       Q       Q       
+ 134    0.86    0.00    0.00    0.00 * A       A       A       A       A       
+ 135    0.82    0.00    0.00    0.00 * N       N       N       N       N       
+ 136    0.87    0.00    0.00    0.00 * R       R       R       R       R       
+ 137    0.91    0.00    0.00    0.00 * L       L       L       L       L       
+ 138    0.90    0.00    0.00    0.00 * F       F       F       F       F       
+ 139    0.92    0.00    0.00    0.00 * Y       Y       Y       Y       Y       
+ 140    0.91    0.00    0.00    0.00 * L       L       L       L       L       
+ 141    0.86    0.00    0.00    0.00 * A       A       A       A       A       
+ 142    0.91    0.00    0.00    0.00 * L       L       L       L       L       
+ 143    0.93    0.00    0.00    0.00 * P       P       P       P       P       
+ 144    0.93    0.00    0.00    0.00 * P       P       P       P       P       
+ 145    0.88    0.00    0.00    0.00 * T       T       T       T       T       
+ 146    0.89    0.00    0.00    0.00 * V       V       V       V       V       
+ 147    0.92    0.00    0.00    0.00 * Y       Y       Y       Y       Y       
+ 148    0.86    0.00    0.00    0.00 * E       E       E       E       E       
+ 149    0.86    0.00    0.00    0.00 * A       A       A       A       A       
+ 150    0.89    0.00    0.00    0.00 * V       V       V       V       V       
+ 151    0.88    0.00    0.00    0.00 * T       T       T       T       T       
+ 152    0.86    0.00    0.00    0.00 * K       K       K       K       K       
+ 153    0.82    0.00    0.00    0.00 * N       N       N       N       N       
+ 154    0.87    0.00    0.00    0.00 * I       I       I       I       I       
+ 155    0.87    0.00    0.00    0.00 * H       H       H       H       H       
+ 156    0.86    0.00    0.00    0.00 * E       E       E       E       E       
+ 157    0.89    0.00    0.00    0.00 * S       S       S       S       S       
+ 158    1.00    0.00    0.00    0.00 * C       C       C       C       C       
+ 159    0.79    0.00    0.00    0.00 * M       M       M       M       M       
+ 160    0.89    0.00    0.00    0.00 * S       S       S       S       S       
+ 161    0.87    0.00    0.00    0.00 * Q       Q       Q       Q       Q       
+ 162    0.87    0.00    0.00    0.00 * I       I       I       I       I       
+ 163    0.96    0.00    0.00    0.00 * G       G       G       G       G       
+ 164    0.95    0.00    0.00    0.00 * W       W       W       W       W       
+ 165    0.82    0.00    0.00    0.00 * N       N       N       N       N       
+ 166    0.87    0.00    0.00    0.00 * R       R       R       R       R       
+ 167    0.87    0.00    0.00    0.00 * I       I       I       I       I       
+ 168    0.87    0.00    0.00    0.00 * I       I       I       I       I       
+ 169    0.89    0.00    0.00    0.00 * V       V       V       V       V       
+ 170    0.86    0.00    0.00    0.00 * E       E       E       E       E       
+ 171    0.86    0.00    0.00    0.00 * K       K       K       K       K       
+ 172    0.93    0.00    0.00    0.00 * P       P       P       P       P       
+ 173    0.90    0.00    0.00    0.00 * F       F       F       F       F       
+ 174    0.96    0.00    0.00    0.00 * G       G       G       G       G       
+ 175    0.87    0.00    0.00    0.00 * R       R       R       R       R       
+ 176    0.89    0.00    0.00    0.00 * D       D       D       D       D       
+ 177    0.91    0.00    0.00    0.00 * L       L       L       L       L       
+ 178    0.87    0.00    0.00    0.00 * Q       Q       Q       Q       Q       
+ 179    0.89    0.00    0.00    0.00 * S       S       S       S       S       
+ 180    0.89    0.00    0.00    0.00 * S       S       S       S       S       
+ 181    0.89    0.00    0.00    0.00 * D       D       D       D       D       
+ 182    0.87    0.00    0.00    0.00 * R       R       R       R       R       
+ 183    0.91    0.00    0.00    0.00 * L       L       L       L       L       
+ 184    0.89    0.00    0.00    0.00 * S       S       S       S       S       
+ 185    0.82    0.00    0.00    0.00 * N       N       N       N       N       
+ 186    0.87    0.00    0.00    0.00 * H       H       H       H       H       
+ 187    0.87    0.00    0.00    0.00 * I       I       I       I       I       
+ 188    0.89    0.00    0.00    0.00 * S       S       S       S       S       
+ 189    0.89    0.00    0.00    0.00 * S       S       S       S       S       
+ 190    0.91    0.00    0.00    0.00 * L       L       L       L       L       
+ 191    0.90    0.00    0.00    0.00 * F       F       F       F       F       
+ 192    0.87    0.00    0.00    0.00 * R       R       R       R       R       
+ 193    0.86    0.00    0.00    0.00 * E       E       E       E       E       
+ 194    0.89    0.00    0.00    0.00 * D       D       D       D       D       
+ 195    0.87    0.00    0.00    0.00 * Q       Q       Q       Q       Q       
+ 196    0.87    0.00    0.00    0.00 * I       I       I       I       I       
+ 197    0.92    0.00    0.00    0.00 * Y       Y       Y       Y       Y       
+ 198    0.87    0.00    0.00    0.00 * R       R       R       R       R       
+ 199    0.87    0.00    0.00    0.00 * I       I       I       I       I       
+ 200    0.82    0.00    0.00    0.00   D       D       D       N       D       
+ 201    0.87    0.00    0.00    0.00 * H       H       H       H       H       
+ 202    0.92    0.00    0.00    0.00 * Y       Y       Y       Y       Y       
+ 203    0.91    0.00    0.00    0.00 * L       L       L       L       L       
+ 204    0.96    0.00    0.00    0.00 * G       G       G       G       G       
+ 205    0.86    0.00    0.00    0.00 * K       K       K       K       K       
+ 206    0.86    0.00    0.00    0.00 * E       E       E       E       E       
+ 207    0.79    0.00    0.00    0.00 * M       M       M       M       M       
+ 208    0.89    0.00    0.00    0.00 * V       V       V       V       V       
+ 209    0.87    0.00    0.00    0.00 * Q       Q       Q       Q       Q       
+ 210    0.82    0.00    0.00    0.00 * N       N       N       N       N       
+ 211    0.91    0.00    0.00    0.00 * L       L       L       L       L       
+ 212    0.79    0.00    0.00    0.00 * M       M       M       M       M       
+ 213    0.89    0.00    0.00    0.00 * V       V       V       V       V       
+ 214    0.91    0.00    0.00    0.00 * L       L       L       L       L       
+ 215    0.87    0.00    0.00    0.00 * R       R       R       R       R       
+ 216    0.90    0.00    0.00    0.00 * F       F       F       F       F       
+ 217    0.86    0.00    0.00    0.00 * A       A       A       A       A       
+ 218    0.82    0.00    0.00    0.00 * N       N       N       N       N       
+ 219    0.87    0.00    0.00    0.00 * R       R       R       R       R       
+ 220    0.87    0.00    0.00    0.00 * I       I       I       I       I       
+ 221    0.90    0.00    0.00    0.00 * F       F       F       F       F       
+ 222    0.96    0.00    0.00    0.00 * G       G       G       G       G       
+ 223    0.93    0.00    0.00    0.00 * P       P       P       P       P       
+ 224    0.87    0.00    0.00    0.00 * I       I       I       I       I       
+ 225    0.95    0.00    0.00    0.00 * W       W       W       W       W       
+ 226    0.82    0.00    0.00    0.00 * N       N       N       N       N       
+ 227    0.87    0.00    0.00    0.00 * R       R       R       R       R       
+ 228    0.89    0.00    0.00    0.00 * D       D       D       D       D       
+ 229    0.82    0.00    0.00    0.00 * N       N       N       N       N       
+ 230    0.87    0.00    0.00    0.00 * I       I       I       I       I       
+ 231    0.86    0.00    0.00    0.00 * A       A       A       A       A       
+ 232    1.00    0.00    0.00    0.00 * C       C       C       C       C       
+ 233    0.89    0.00    0.00    0.00 * V       V       V       V       V       
+ 234    0.87    0.00    0.00    0.00 * I       I       I       I       I       
+ 235    0.91    0.00    0.00    0.00 * L       L       L       L       L       
+ 236    0.88    0.00    0.00    0.00 * T       T       T       T       T       
+ 237    0.90    0.00    0.00    0.00 * F       F       F       F       F       
+ 238    0.86    0.00    0.00    0.00 * K       K       K       K       K       
+ 239    0.86    0.00    0.00    0.00 * E       E       E       E       E       
+ 240    0.93    0.00    0.00    0.00 * P       P       P       P       P       
+ 241    0.90    0.00    0.00    0.00 * F       F       F       F       F       
+ 242    0.96    0.00    0.00    0.00 * G       G       G       G       G       
+ 243    0.88    0.00    0.00    0.00 * T       T       T       T       T       
+ 244    0.86    0.00    0.00    0.00 * E       E       E       E       E       
+ 245    0.96    0.00    0.00    0.00 * G       G       G       G       G       
+ 246    0.87    0.00    0.00    0.00 * R       R       R       R       R       
+ 247    0.96    0.00    0.00    0.00 * G       G       G       G       G       
+ 248    0.96    0.00    0.00    0.00 * G       G       G       G       G       
+ 249    0.92    0.00    0.00    0.00 * Y       Y       Y       Y       Y       
+ 250    0.90    0.00    0.00    0.00 * F       F       F       F       F       
+ 251    0.89    0.00    0.00    0.00 * D       D       D       D       D       
+ 252    0.86    0.00    0.00    0.00 * E       E       E       E       E       
+ 253    0.90    0.00    0.00    0.00 * F       F       F       F       F       
+ 254    0.96    0.00    0.00    0.00 * G       G       G       G       G       
+ 255    0.87    0.00    0.00    0.00 * I       I       I       I       I       
+ 256    0.87    0.00    0.00    0.00 * I       I       I       I       I       
+ 257    0.87    0.00    0.00    0.00 * R       R       R       R       R       
+ 258    0.89    0.00    0.00    0.00 * D       D       D       D       D       
+ 259    0.89    0.00    0.00    0.00 * V       V       V       V       V       
+ 260    0.79    0.00    0.00    0.00 * M       M       M       M       M       
+ 261    0.87    0.00    0.00    0.00 * Q       Q       Q       Q       Q       
+ 262    0.82    0.00    0.00    0.00 * N       N       N       N       N       
+ 263    0.87    0.00    0.00    0.00 * H       H       H       H       H       
+ 264    0.91    0.00    0.00    0.00 * L       L       L       L       L       
+ 265    0.91    0.00    0.00    0.00 * L       L       L       L       L       
+ 266    0.87    0.00    0.00    0.00 * Q       Q       Q       Q       Q       
+ 267    0.79    0.00    0.00    0.00 * M       M       M       M       M       
+ 268    0.91    0.00    0.00    0.00 * L       L       L       L       L       
+ 269    1.00    0.00    0.00    0.00 * C       C       C       C       C       
+ 270    0.91    0.00    0.00    0.00 * L       L       L       L       L       
+ 271    0.89    0.00    0.00    0.00 * V       V       V       V       V       
+ 272    0.86    0.00    0.00    0.00 * A       A       A       A       A       
+ 273    0.79    0.00    0.00    0.00 * M       M       M       M       M       
+ 274    0.86    0.00    0.00    0.00 * E       E       E       E       E       
+ 275    0.86    0.00    0.00    0.00 * K       K       K       K       K       
+ 276    0.93    0.00    0.00    0.00 * P       P       P       P       P       
+ 277    0.86    0.00    0.00    0.00 * A       A       A       A       A       
+ 278    0.89    0.00    0.00    0.00 * S       S       S       S       S       
+ 279    0.88    0.00    0.00    0.00 * T       T       T       T       T       
+ 280    0.82    0.00    0.00    0.00 * N       N       N       N       N       
+ 281    0.89    0.00    0.00    0.00 * S       S       S       S       S       
+ 282    0.89    0.00    0.00    0.00 * D       D       D       D       D       
+ 283    0.89    0.00    0.00    0.00 * D       D       D       D       D       
+ 284    0.89    0.00    0.00    0.00 * V       V       V       V       V       
+ 285    0.87    0.00    0.00    0.00 * R       R       R       R       R       
+ 286    0.89    0.00    0.00    0.00 * D       D       D       D       D       
+ 287    0.86    0.00    0.00    0.00 * E       E       E       E       E       
+ 288    0.86    0.00    0.00    0.00 * K       K       K       K       K       
+ 289    0.89    0.00    0.00    0.00 * V       V       V       V       V       
+ 290    0.86    0.00    0.00    0.00 * K       K       K       K       K       
+ 291    0.89    0.00    0.00    0.00 * V       V       V       V       V       
+ 292    0.91    0.00    0.00    0.00 * L       L       L       L       L       
+ 293    0.86    0.00    0.00    0.00 * K       K       K       K       K       
+ 294    1.00    0.00    0.00    0.00 * C       C       C       C       C       
+ 295    0.87    0.00    0.00    0.00 * I       I       I       I       I       
+ 296    0.89    0.00    0.00    0.00 * S       S       S       S       S       
+ 297    0.86    0.00    0.00    0.00 * E       E       E       E       E       
+ 298    0.89    0.00    0.00    0.00 * V       V       V       V       V       
+ 299    0.87    0.00    0.00    0.00 * Q       Q       Q       Q       Q       
+ 300    0.86    0.00    0.00    0.00 * A       A       A       A       A       
+ 301    0.82    0.00    0.00    0.00 * N       N       N       N       N       
+ 302    0.82    0.00    0.00    0.00 * N       N       N       N       N       
+ 303    0.89    0.00    0.00    0.00 * V       V       V       V       V       
+ 304    0.89    0.00    0.00    0.00 * V       V       V       V       V       
+ 305    0.91    0.00    0.00    0.00 * L       L       L       L       L       
+ 306    0.96    0.00    0.00    0.00 * G       G       G       G       G       
+ 307    0.87    0.00    0.00    0.00 * Q       Q       Q       Q       Q       
+ 308    0.92    0.00    0.00    0.00 * Y       Y       Y       Y       Y       
+ 309    0.89    0.00    0.00    0.00 * V       V       V       V       V       
+ 310    0.96    0.00    0.00    0.00 * G       G       G       G       G       
+ 311    0.82    0.00    0.00    0.00 * N       N       N       N       N       
+ 312    0.93    0.00    0.00    0.00 * P       P       P       P       P       
+ 313    0.89    0.00    0.00    0.00 * D       D       D       D       D       
+ 314    0.96    0.00    0.00    0.00 * G       G       G       G       G       
+ 315    0.86    0.00    0.00    0.00 * E       E       E       E       E       
+ 316    0.96    0.00    0.00    0.00 * G       G       G       G       G       
+ 317    0.86    0.00    0.00    0.00 * E       E       E       E       E       
+ 318    0.86    0.00    0.00    0.00 * A       A       A       A       A       
+ 319    0.88    0.00    0.00    0.00 * T       T       T       T       T       
+ 320    0.86    0.00    0.00    0.00 * K       K       K       K       K       
+ 321    0.96    0.00    0.00    0.00 * G       G       G       G       G       
+ 322    0.92    0.00    0.00    0.00 * Y       Y       Y       Y       Y       
+ 323    0.91    0.00    0.00    0.00 * L       L       L       L       L       
+ 324    0.89    0.00    0.00    0.00 * D       D       D       D       D       
+ 325    0.89    0.00    0.00    0.00 * D       D       D       D       D       
+ 326    0.93    0.00    0.00    0.00 * P       P       P       P       P       
+ 327    0.88    0.00    0.00    0.00 * T       T       T       T       T       
+ 328    0.89    0.00    0.00    0.00 * V       V       V       V       V       
+ 329    0.93    0.00    0.00    0.00 * P       P       P       P       P       
+ 330    0.87    0.00    0.00    0.00 * R       R       R       R       R       
+ 331    0.96    0.00    0.00    0.00 * G       G       G       G       G       
+ 332    0.89    0.00    0.00    0.00 * S       S       S       S       S       
+ 333    0.88    0.00    0.00    0.00 * T       T       T       T       T       
+ 334    0.88    0.00    0.00    0.00 * T       T       T       T       T       
+ 335    0.86    0.00    0.00    0.00 * A       A       A       A       A       
+ 336    0.88    0.00    0.00    0.00 * T       T       T       T       T       
+ 337    0.90    0.00    0.00    0.00 * F       F       F       F       F       
+ 338    0.86    0.00    0.00    0.00 * A       A       A       A       A       
+ 339    0.86    0.00    0.00    0.00 * A       A       A       A       A       
+ 340    0.89    0.00    0.00    0.00 * V       V       V       V       V       
+ 341    0.89    0.00    0.00    0.00 * V       V       V       V       V       
+ 342    0.91    0.00    0.00    0.00 * L       L       L       L       L       
+ 343    0.92    0.00    0.00    0.00 * Y       Y       Y       Y       Y       
+ 344    0.89    0.00    0.00    0.00 * V       V       V       V       V       
+ 345    0.86    0.00    0.00    0.00 * E       E       E       E       E       
+ 346    0.82    0.00    0.00    0.00 * N       N       N       N       N       
+ 347    0.86    0.00    0.00    0.00 * E       E       E       E       E       
+ 348    0.87    0.00    0.00    0.00 * R       R       R       R       R       
+ 349    0.95    0.00    0.00    0.00 * W       W       W       W       W       
+ 350    0.89    0.00    0.00    0.00 * D       D       D       D       D       
+ 351    0.96    0.00    0.00    0.00 * G       G       G       G       G       
+ 352    0.89    0.00    0.00    0.00 * V       V       V       V       V       
+ 353    0.93    0.00    0.00    0.00 * P       P       P       P       P       
+ 354    0.90    0.00    0.00    0.00 * F       F       F       F       F       
+ 355    0.87    0.00    0.00    0.00 * I       I       I       I       I       
+ 356    0.91    0.00    0.00    0.00 * L       L       L       L       L       
+ 357    0.87    0.00    0.00    0.00 * R       R       R       R       R       
+ 358    1.00    0.00    0.00    0.00 * C       C       C       C       C       
+ 359    0.96    0.00    0.00    0.00 * G       G       G       G       G       
+ 360    0.86    0.00    0.00    0.00 * K       K       K       K       K       
+ 361    0.86    0.00    0.00    0.00 * A       A       A       A       A       
+ 362    0.91    0.00    0.00    0.00 * L       L       L       L       L       
+ 363    0.82    0.00    0.00    0.00 * N       N       N       N       N       
+ 364    0.86    0.00    0.00    0.00 * E       E       E       E       E       
+ 365    0.87    0.00    0.00    0.00 * R       R       R       R       R       
+ 366    0.86    0.00    0.00    0.00 * K       K       K       K       K       
+ 367    0.86    0.00    0.00    0.00 * A       A       A       A       A       
+ 368    0.86    0.00    0.00    0.00 * E       E       E       E       E       
+ 369    0.89    0.00    0.00    0.00 * V       V       V       V       V       
+ 370    0.87    0.00    0.00    0.00 * R       R       R       R       R       
+ 371    0.91    0.00    0.00    0.00 * L       L       L       L       L       
+ 372    0.87    0.00    0.00    0.00 * Q       Q       Q       Q       Q       
+ 373    0.90    0.00    0.00    0.00 * F       F       F       F       F       
+ 374    0.87    0.00    0.00    0.00 * H       H       H       H       H       
+ 375    0.89    0.00    0.00    0.00 * D       D       D       D       D       
+ 376    0.89    0.00    0.00    0.00 * V       V       V       V       V       
+ 377    0.86    0.00    0.00    0.00 * A       A       A       A       A       
+ 378    0.96    0.00    0.00    0.00 * G       G       G       G       G       
+ 379    0.89    0.00    0.00    0.00 * D       D       D       D       D       
+ 380    0.87    0.00    0.00    0.00 * I       I       I       I       I       
+ 381    0.90    0.00    0.00    0.00 * F       F       F       F       F       
+ 382    0.87    0.00    0.00    0.00 * H       H       H       H       H       
+ 383    0.87    0.00    0.00    0.00 * Q       Q       Q       Q       Q       
+ 384    0.87    0.00    0.00    0.00 * Q       Q       Q       Q       Q       
+ 385    1.00    0.00    0.00    0.00 * C       C       C       C       C       
+ 386    0.86    0.00    0.00    0.00 * K       K       K       K       K       
+ 387    0.87    0.00    0.00    0.00 * R       R       R       R       R       
+ 388    0.82    0.00    0.00    0.00 * N       N       N       N       N       
+ 389    0.86    0.00    0.00    0.00 * E       E       E       E       E       
+ 390    0.91    0.00    0.00    0.00 * L       L       L       L       L       
+ 391    0.89    0.00    0.00    0.00 * V       V       V       V       V       
+ 392    0.87    0.00    0.00    0.00 * I       I       I       I       I       
+ 393    0.87    0.00    0.00    0.00 * R       R       R       R       R       
+ 394    0.89    0.00    0.00    0.00 * V       V       V       V       V       
+ 395    0.87    0.00    0.00    0.00 * Q       Q       Q       Q       Q       
+ 396    0.93    0.00    0.00    0.00 * P       P       P       P       P       
+ 397    0.82    0.00    0.00    0.00 * N       N       N       N       N       
+ 398    0.86    0.00    0.00    0.00 * E       E       E       E       E       
+ 399    0.86    0.00    0.00    0.00 * A       A       A       A       A       
+ 400    0.89    0.00    0.00    0.00 * V       V       V       V       V       
+ 401    0.92    0.00    0.00    0.00 * Y       Y       Y       Y       Y       
+ 402    0.88    0.00    0.00    0.00 * T       T       T       T       T       
+ 403    0.86    0.00    0.00    0.00 * K       K       K       K       K       
+ 404    0.79    0.00    0.00    0.00 * M       M       M       M       M       
+ 405    0.79    0.00    0.00    0.00 * M       M       M       M       M       
+ 406    0.88    0.00    0.00    0.00 * T       T       T       T       T       
+ 407    0.86    0.00    0.00    0.00 * K       K       K       K       K       
+ 408    0.86    0.00    0.00    0.00 * K       K       K       K       K       
+ 409    0.93    0.00    0.00    0.00 * P       P       P       P       P       
+ 410    0.96    0.00    0.00    0.00 * G       G       G       G       G       
+ 411    0.79    0.00    0.00    0.00 * M       M       M       M       M       
+ 412    0.90    0.00    0.00    0.00 * F       F       F       F       F       
+ 413    0.90    0.00    0.00    0.00 * F       F       F       F       F       
+ 414    0.82    0.00    0.00    0.00 * N       N       N       N       N       
+ 415    0.93    0.00    0.00    0.00 * P       P       P       P       P       
+ 416    0.86    0.00    0.00    0.00 * E       E       E       E       E       
+ 417    0.86    0.00    0.00    0.00 * E       E       E       E       E       
+ 418    0.89    0.00    0.00    0.00 * S       S       S       S       S       
+ 419    0.86    0.00    0.00    0.00 * E       E       E       E       E       
+ 420    0.91    0.00    0.00    0.00 * L       L       L       L       L       
+ 421    0.89    0.00    0.00    0.00 * D       D       D       D       D       
+ 422    0.91    0.00    0.00    0.00 * L       L       L       L       L       
+ 423    0.88    0.00    0.00    0.00 * T       T       T       T       T       
+ 424    0.69    0.00    0.00    0.00   Y       Y       -       Y       Y       
+ 425    0.72    0.00    0.00    0.00   G       G       -       G       G       
+ 426    0.61    0.00    0.00    0.00   N       N       -       N       N       
+ 427    0.66    0.00    0.00    0.00   R       R       -       R       R       
+ 428    0.69    0.00    0.00    0.00   Y       Y       -       Y       Y       
+ 429    0.64    0.00    0.00    0.00   K       K       -       K       K       
+ 430    0.61    0.00    0.00    0.00   N       N       -       N       N       
+ 431    0.66    0.00    0.00    0.00   V       V       -       V       V       
+ 432    0.64    0.00    0.00    0.00   K       K       -       K       K       
+ 433    0.91    0.00    0.00    0.00 * L       L       L       L       L       
+ 434    0.93    0.00    0.00    0.00 * P       P       P       P       P       
+ 435    0.89    0.00    0.00    0.00 * D       D       D       D       D       
+ 436    0.86    0.00    0.00    0.00 * A       A       A       A       A       
+ 437    0.92    0.00    0.00    0.00 * Y       Y       Y       Y       Y       
+ 438    0.86    0.00    0.00    0.00 * E       E       E       E       E       
+ 439    0.87    0.00    0.00    0.00 * R       R       R       R       R       
+ 440    0.91    0.00    0.00    0.00 * L       L       L       L       L       
+ 441    0.87    0.00    0.00    0.00 * I       I       I       I       I       
+ 442    0.91    0.00    0.00    0.00 * L       L       L       L       L       
+ 443    0.89    0.00    0.00    0.00 * D       D       D       D       D       
+ 444    0.89    0.00    0.00    0.00 * V       V       V       V       V       
+ 445    0.90    0.00    0.00    0.00 * F       F       F       F       F       
+ 446    1.00    0.00    0.00    0.00 * C       C       C       C       C       
+ 447    0.96    0.00    0.00    0.00 * G       G       G       G       G       
+ 448    0.89    0.00    0.00    0.00 * S       S       S       S       S       
+ 449    0.87    0.00    0.00    0.00 * Q       Q       Q       Q       Q       
+ 450    0.79    0.00    0.00    0.00 * M       M       M       M       M       
+ 451    0.87    0.00    0.00    0.00 * H       H       H       H       H       
+ 452    0.90    0.00    0.00    0.00 * F       F       F       F       F       
+ 453    0.89    0.00    0.00    0.00 * V       V       V       V       V       
+ 454    0.87    0.00    0.00    0.00 * R       R       R       R       R       
+ 455    0.89    0.00    0.00    0.00 * S       S       S       S       S       
+ 456    0.89    0.00    0.00    0.00 * D       D       D       D       D       
+ 457    0.86    0.00    0.00    0.00 * E       E       E       E       E       
+ 458    0.91    0.00    0.00    0.00 * L       L       L       L       L       
+ 459    0.75    0.00    0.00    0.00   L       R       R       R       R       
+ 460    0.86    0.00    0.00    0.00 * E       E       E       E       E       
+ 461    0.86    0.00    0.00    0.00 * A       A       A       A       A       
+ 462    0.95    0.00    0.00    0.00 * W       W       W       W       W       
+ 463    0.87    0.00    0.00    0.00 * R       R       R       R       R       
+ 464    0.87    0.00    0.00    0.00 * I       I       I       I       I       
+ 465    0.90    0.00    0.00    0.00 * F       F       F       F       F       
+ 466    0.88    0.00    0.00    0.00 * T       T       T       T       T       
+ 467    0.93    0.00    0.00    0.00 * P       P       P       P       P       
+ 468    0.91    0.00    0.00    0.00 * L       L       L       L       L       
+ 469    0.91    0.00    0.00    0.00 * L       L       L       L       L       
+ 470    0.87    0.00    0.00    0.00 * H       H       H       H       H       
+ 471    0.87    0.00    0.00    0.00 * Q       Q       Q       Q       Q       
+ 472    0.87    0.00    0.00    0.00 * I       I       I       I       I       
+ 473    0.86    0.00    0.00    0.00 * E       E       E       E       E       
+ 474    0.91    0.00    0.00    0.00 * L       L       L       L       L       
+ 475    0.86    0.00    0.00    0.00 * E       E       E       E       E       
+ 476    0.86    0.00    0.00    0.00 * K       K       K       K       K       
+ 477    0.93    0.00    0.00    0.00 * P       P       P       P       P       
+ 478    0.86    0.00    0.00    0.00 * K       K       K       K       K       
+ 479    0.93    0.00    0.00    0.00 * P       P       P       P       P       
+ 480    0.87    0.00    0.00    0.00 * I       I       I       I       I       
+ 481    0.93    0.00    0.00    0.00 * P       P       P       P       P       
+ 482    0.92    0.00    0.00    0.00 * Y       Y       Y       Y       Y       
+ 483    0.87    0.00    0.00    0.00 * I       I       I       I       I       
+ 484    0.92    0.00    0.00    0.00 * Y       Y       Y       Y       Y       
+ 485    0.96    0.00    0.00    0.00 * G       G       G       G       G       
+ 486    0.89    0.00    0.00    0.00 * S       S       S       S       S       
+ 487    0.87    0.00    0.00    0.00 * R       R       R       R       R       
+ 488    0.96    0.00    0.00    0.00 * G       G       G       G       G       
+ 489    0.93    0.00    0.00    0.00 * P       P       P       P       P       
+ 490    0.88    0.00    0.00    0.00 * T       T       T       T       T       
+ 491    0.86    0.00    0.00    0.00 * E       E       E       E       E       
+ 492    0.86    0.00    0.00    0.00 * A       A       A       A       A       
+ 493    0.89    0.00    0.00    0.00 * D       D       D       D       D       
+ 494    0.86    0.00    0.00    0.00 * E       E       E       E       E       
+ 495    0.91    0.00    0.00    0.00 * L       L       L       L       L       
+ 496    0.79    0.00    0.00    0.00 * M       M       M       M       M       
+ 497    0.86    0.00    0.00    0.00 * K       K       K       K       K       
+ 498    0.87    0.00    0.00    0.00 * R       R       R       R       R       
+ 499    0.89    0.00    0.00    0.00 * V       V       V       V       V       
+ 500    0.96    0.00    0.00    0.00 * G       G       G       G       G       
+ 501    0.90    0.00    0.00    0.00 * F       F       F       F       F       
+ 502    0.87    0.00    0.00    0.00 * Q       Q       Q       Q       Q       
+ 503    0.92    0.00    0.00    0.00 * Y       Y       Y       Y       Y       
+ 504    0.86    0.00    0.00    0.00 * E       E       E       E       E       
+ 505    0.72    0.00    0.00    0.00   G       G       -       G       G       
+ 506    0.66    0.00    0.00    0.00   T       T       -       T       T       
+ 507    0.69    0.00    0.00    0.00   Y       Y       -       Y       Y       
+ 508    0.64    0.00    0.00    0.00   K       K       -       K       K       
+ 509    0.72    0.00    0.00    0.00   W       W       -       W       W       
+ 510    0.66    0.00    0.00    0.00   V       V       -       V       V       
+ 511    0.61    0.00    0.00    0.00   N       N       -       N       N       
+ 512    0.70    0.00    0.00    0.00   P       P       -       P       P       
+ 513    0.65    0.00    0.00    0.00   H       H       -       H       H       
+ 514    0.21    0.00    0.00    0.00   -       -       -       K       K       
+ 515    0.23    0.00    0.00    0.00   -       -       -       L       L       
+------------------------------------------------------------------------------
+
+
+openf___224_> Open           m1-mult.ali
+openf___224_> Open           m1-mult.pap
+
+Dynamically allocated memory at          finish [B,KiB,MiB]:      1848990    1805.654     1.763
+Starting time                                            : 2025/10/21 18:19:25
+Closing time                                             : 2025/10/21 18:19:27
+Total CPU time [seconds]                                 :       1.12
